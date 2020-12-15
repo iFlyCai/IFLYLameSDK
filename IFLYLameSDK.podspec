@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IFLYLameSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of IFLYLameSDK.'
+  s.version          = '0.0.1'
+  s.summary          = 'IFLYLameSDK是一个第三方库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  IFLYLameSDK是一个第三方库,实现m4a文件和mp3文件的转换
                        DESC
 
-  s.homepage         = 'https://github.com/zhangchengcai3615@126.com/IFLYLameSDK'
+  s.homepage         = 'https://github.com/iFlyCai/IFLYLameSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangchengcai3615@126.com' => 'zhangchengcai3615@126.com' }
-  s.source           = { :git => 'https://github.com/zhangchengcai3615@126.com/IFLYLameSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iFlyCai/IFLYLameSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'IFLYLameSDK/Classes/**/*'
   
